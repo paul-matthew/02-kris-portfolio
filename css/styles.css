@@ -617,6 +617,7 @@ progress {
   max-height: 100%;
 }
 
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -3097,8 +3098,8 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-  --bs-btn-color: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-color: #111111;
+  --bs-btn-border-color: #0f0f0f;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #f8f9fa;
   --bs-btn-hover-border-color: #f8f9fa;
@@ -11043,8 +11044,9 @@ html {
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: black;
-  max-width:100%;
+  max-width:100vw;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 0.5;
 }
