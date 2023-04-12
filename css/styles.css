@@ -8186,7 +8186,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #CCAE94 !important;
 }
 
 .bg-black {
@@ -10929,7 +10929,7 @@ html {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: var(--bs-teal);
+  color: #A38B76;/*For the Menu Link default colour*/
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: black;
@@ -11036,6 +11036,7 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  width:80vw;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -11044,11 +11045,11 @@ html {
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: black;
-  max-width:100vw;
+  max-width:90vw;/*Card Icons hover transparent background*/
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 0.5;
+  opacity: 0.5; /*Transparency of background hover on card*/
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 3.5rem;
